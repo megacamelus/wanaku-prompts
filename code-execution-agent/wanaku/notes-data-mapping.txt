@@ -1,0 +1,19 @@
+serviceType => capability
+serviceSubtype -> tool
+serviceName ---> camel, HTTP, tavily, etc
+
+
+serviceType => capability
+serviceSubtype -> resource
+serviceName ---> camel, HTTP, tavily, etc
+
+serviceType => capability
+serviceSubtype -> multi-capability
+serviceName ---> camel, HTTP, tavily, etc
+
+serviceType => code-execution-engine
+serviceSubtype -> camel
+serviceName ----> YAML, XML,
+
+
+capabilities { yaml, xml }
